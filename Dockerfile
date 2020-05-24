@@ -14,4 +14,3 @@ RUN go get github.com/olivere/elastic
 
 EXPOSE 8080
 CMD ["/usr/local/go/bin/go", "run", "main.go", "user.go", "vision.go"]
-
